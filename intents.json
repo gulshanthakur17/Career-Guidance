@@ -1,0 +1,263 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, I'm your virtual personal assistant. How can i help you  today?",  "Hi! May I request you to share your query with us."],
+         "context": [""]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["for class 9?", "for class 10?" ,"for class 11?" , "for class 12?"],
+         "context": [""]
+        },
+
+        {"tag": "class 9",
+        "patterns": ["what can i do after class 9?" ],
+        "responses": ["you can prepare for good colleges like IIT's,AIMS & give some competetive exams to test your knowledge and see where you stand in competetion"],
+        "context": [""]
+        },
+
+        {"tag": "stream ",
+        "patterns": ["which subject should i choose in class 9?"],
+        "responses": [" English , Mathematics , Science , Social Studies , Physical Education , Sanskrit , Hindi  "],
+        "context": [""]
+        },
+
+        {"tag": "exam for class 9th students",
+        "patterns": ["what kind of competetive exams are there for class 9 student"],
+        "responses": ["some popular exams are NTSE,INO,KVPY,ASSET,NBO,NIMO"],
+        "context": [""]
+        },
+
+
+
+
+        {"tag": "class 10",
+        "patterns": ["what can i do after class 10?"],
+        "responses": ["you can prepare for good colleges like IIT's,AIMS & give some competetive exams to test your knowledge and see where you stand in competetion"  ],
+        "context": [""]
+        },
+
+
+
+
+        {"tag": "subject for class 10th students  ",
+        "patterns": ["which subject should i choose in class 10"],
+        "responses": ["English , Mathematics , Science , Social Studies , Physical Education , Sanskrit , Hindi "],
+        "context": [""]
+        },
+
+        {"tag": "exam for class 10th students ",
+        "patterns": ["what kind of competetive exams are there for class 10 student?"],
+        "responses": ["some popular exams are NTSE,INO,KVPY,ASSET,NBO,NIMO,you can also prepare for government exams like NDA "],
+        "context": [""]
+        },
+
+        
+
+
+        {"tag": "class 11",
+        "patterns": ["what can i do after class 11?" ],
+        "responses": ["you can prepare for good colleges like IIT's,AIMS & give some competetive exams to test your knowledge and see where you stand in competetion" ],
+        "context": [""]
+        },
+
+        {"tag": "subject choose in class 11",
+        "patterns": ["which stream should i choose in class 11"],
+        "responses": ["you can choose your stream according to your intrest and in which you enjoy your studies "],
+        "context": [""]
+        },
+
+        {"tag": "exam for class 11th students",
+        "patterns": ["what kind of competetive exams are there for class 11 student?"],
+        "responses": ["some popular exams are NTSE,INO,KVPY,ASSET,NBO,NIMO"],
+        "context": [""]
+        },
+
+        {"tag": "After_10 ",
+        "patterns": ["what subject can be studied after 10th?"],
+        "responses": ["Science(PCM) , Science(PCB), Commerce, Arts "],
+        "context": ["Science(PCM) , Science(PCB), Commerce, Arts"]
+        },
+
+        {"tag": "commerce",
+        "patterns": ["commerce stream"],
+        "responses": ["Commerce deals with an activity of buying and selling of goods and services. It includes all the processes, rules and technologies involved in exchange of products. It is a study of important aspects of commercial world"],
+        "context": ["Commerce_Subject"]
+        },
+
+        {"tag": "Commerce_Subject",
+        "patterns": ["What Subjects can be  studied in commerce"],
+        "responses": ["Accounts ,Business studies ,Economics ,Mathematics ,One language subject is necessary (e.g. English or Hindi) "],
+        "context": ["Commerce_Scope"]
+        },
+
+        {"tag": "Commerce_Scope",
+        "patterns": ["Scope in commerce"],
+        "responses": ["Chartered Accountant (CA), Company Secretary (CS), Chartered Financial Analyst (CFA),Certified Management and Accountant (CMA)"],
+        "context": ["Commerce_degree"]
+        },
+
+        {"tag": "Commerce_degree",
+        "patterns": ["Degree Courses in Commerce"],
+        "responses": ["Bachelors of Business Administration (BBA), Bachelors of Management Studies (BMS),Bachelors of Commerce (B.Com.),Bachelors of Statics (B.Stat.),Bachelors of Economics (B.Eco.), Bachelors of Finance and Accounting (BFA)"],
+        "context": [""]
+        },
+
+        {"tag": "PCM",
+        "patterns": ["Science PCM"],
+        "responses": ["Engeering Field"],
+        "context": [""]
+        },
+
+        {"tag": "PCB",
+        "patterns": ["Science PCB"],
+        "responses": ["Medical Field"],
+        "context": [""]
+        },
+
+        {"tag": "Arts",
+        "patterns": ["What Subjects can be  studied in arts"],
+        "responses": [" History ,Economics, Geography , Political Science ,English (more Language), Psychology, Sociology, Philosophy "],
+        "context": [""]
+        },
+
+        {"tag": "Arts_Scope",
+        "patterns": ["scope in arts"],
+        "responses": ["Media field ,Designing sector ,Hotel Management , IAS/IPS/IFS and other Officer , Lawyer"],
+        "context": [""]
+        },
+        
+               
+        {"tag": "class 12",
+        "patterns": ["what can i do after class 12?" ],
+        "responses": ["you can prepare for good colleges like IIT's,AIMS & give some competetive exams to test your knowledge and see where you stand in competetion"  ],
+        "context": [""]
+        },
+
+        {"tag": "exam for class 12th students",
+        "patterns": ["what kind of competetive exams are there for class 12 student?"],
+        "responses": ["some popular exams are IIT,NEET,BITSAT,AIMCAT etc"],
+        "context": [""]
+        },
+
+        {"tag": "NEET_Preparation",
+        "patterns": ["NEET  Preparation Tips "],
+        "responses": ["As the level of competition is very high in NEET, you need to be well-prepared in order to get a seat in one of the top medical colleges in the country. If you haven't studied properly in your Class 11, it is high time you pull up your socks and start your NEET preparation."],
+        "context": [""]
+        },
+
+        {"tag": "JEE_Main",
+        "patterns": ["JEE Main preparation Tips "],
+        "responses": ["Spend more time on areas that you're weak in. To get a hold of the concept, practice regularly and stay updated.  Do not skip any topic that you feel is not up to your task or is unnecessary. Make short notes of formulas, concepts, pointers and important chapters.Self-evaluate regularly as per your comfort."],
+        "context": [""]
+        },
+        
+        
+        {"tag": "job after 12th",
+        "patterns": ["what government jobs can i apply  after 12th?"],
+        "responses": ["you can apply for various 12th base jobs such as SSC,COUST GAURD,MERCHANT NAVY etc"],
+        "context": [""]
+        },
+
+
+
+
+        {"tag": "Entrance",
+        "patterns": ["Entrance Exams After 12th "],
+        "responses": ["Engineering,   Medical ,  Defence Services ,Fashion and Design , Social Sciences ,Law, Science , Mathematics"],
+        "context": ["Engineering", "  Medical" ,"  Defence Services" ,"Fashion and Design" , "Social Sciences" ,"Law", "Science" ,"Mathematics"]
+        },
+        
+        {"tag": "Engineering",
+        "patterns": [" in Engineering stream "],
+        "responses": ["Joint Entrance Examination (JEE) Main ,   JEE Advanced , COMED-K , IPU-CET (B. Tech) , Manipal (B. Tech) ,VITEEE, AMU (B. Tech) ,Birla Institute of Technology and Science Admission Test (BITSAT) entrance exam"],
+        "context": [""]
+        },
+
+        {"tag": "Medical",
+        "patterns": [" in Medical stream "],
+        "responses": ["National Eligibility Cum Entrance Test (NEET)"],
+        "context": [""]
+        },      
+
+        {"tag": "Defence Services",
+        "patterns": [" in Defence Services"],
+        "responses": ["Indian Maritime University Common Entrance Test,  Indian Navy B.Tech Entry Scheme , Indian Army Technical Entry Scheme (TES)      ,National Defence Academy and Naval Academy Examination (I) ,Indian Navy Sailors Recruitment"],
+        "context": [""]
+        },
+
+        {"tag": "Fashion and Design",
+        "patterns": ["in Fashion and Design"],
+        "responses": ["National Institute of Fashion Technology (NIFT) Entrance Test ,  National Institute of Design Admissions , All India Entrance Examination for Design (AIEED)"],
+        "context": [""]
+        },
+
+        {"tag": "Social Sciences",
+        "patterns": [" in Social Sciences"],
+        "responses": ["Banaras Hindu University,  IIT Madras Humanities and Social Sciences Entrance Examination (HSEE), TISS Bachelors Admission Test (TISS-BAT)"],
+        "context": [""]
+        },
+
+        {"tag": "Law",
+        "patterns": ["in Law "],
+        "responses": [" Common-Law Admission Test (CLAT), All India Law Entrance Test (AILET) ,BHU Law Entrance Exam,  Llyod Entrance Test (LET), DU LLB , LSAT,  Symbiosis Entrance Test (SET)"],
+        "context": [""]
+        },
+
+        {"tag": "Science",
+        "patterns": ["in Science"],
+        "responses": [" Kishore Vaigyanik Protsahan Yojana (KVPY),  National Entrance Screening Test (NEST)"],
+        "context": [""]
+        },
+
+        {"tag": "Mathematics",
+        "patterns": ["in Mathematics "],
+        "responses": ["Indian Statistical Institute Admission , Admissions to Universities (Various B.Sc Programs) , Banasthali Vidyapith Admission "],
+        "context": [""]
+        },
+
+        {"tag": "Engg college",
+        "patterns": ["Engineering College List... "],
+        "responses": ["IITs , NITs ,BITS Pilani ,IIIT Hyderabad ,DTU, Delhi, Jadavpur University,NSIT, New Delhi , BITS Mesra .... State Goverment Engineering College , Private Engineering College"],
+        "context": [""]
+        },
+
+        {"tag": "Medical_College",
+        "patterns": ["Medical College list..... "],
+        "responses": ["All India Institute of Medical Sciences(All Captital) , Government Medical College (State-City) , Private Medical College "],
+        "context": [""]
+        },
+
+        
+
+                
+                                
+        
+        {"tag": "competetive_exam",
+         "patterns": ["what kind of resources should i prefer for cp"],
+         "responses": ["you can prefer various online resources or paid coaching for better subject knowledge to crack competetive exams "],
+         "context": [""]
+        }
+       
+        
+   ]
+}
